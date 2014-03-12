@@ -1,6 +1,469 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <log>
 <logentry
+   revision="8019">
+<author>bsdorn2</author>
+<date>2014-03-12T19:09:37.085055Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/TODO</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/index.html</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/js/app.js</path>
+<path
+   kind="dir"
+   action="D">/bsdorn2/shopping</path>
+</paths>
+<msg>removes shopping</msg>
+</logentry>
+<logentry
+   revision="7986">
+<author>bsdorn2</author>
+<date>2014-03-12T04:16:48.127392Z</date>
+<paths>
+<path
+   kind="dir"
+   action="M">/bsdorn2/Assignment3.0</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/TODO</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/data/svn_list.xml</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/index.html</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/js/app.js</path>
+</paths>
+<msg>updates to current build</msg>
+</logentry>
+<logentry
+   revision="7978">
+<author>bsdorn2</author>
+<date>2014-03-12T03:03:29.277010Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/bsdorn2/Assignment3.0/.git</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/index.html</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/js/app.js</path>
+</paths>
+<msg>removes .git</msg>
+</logentry>
+<logentry
+   revision="7977">
+<author>bsdorn2</author>
+<date>2014-03-12T02:59:37.694320Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/bsdorn2/Assignment2.1/csAir/.git</path>
+</paths>
+<msg>removes .git</msg>
+</logentry>
+<logentry
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment2.0/csAir/models/graph.rb</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment2.1/csAir/controllers/route/route.rb</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment2.1/csAir/helpers/admin/admin_helper.rb</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/COMMIT_EDITMSG</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/HEAD</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/config</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/description</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/hooks</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/hooks/applypatch-msg.sample</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/hooks/commit-msg.sample</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/hooks/post-update.sample</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/hooks/pre-applypatch.sample</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/hooks/pre-commit.sample</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/hooks/pre-push.sample</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/hooks/pre-rebase.sample</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/hooks/prepare-commit-msg.sample</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/hooks/update.sample</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/index</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/info</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/info/exclude</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/logs</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/logs/HEAD</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/logs/refs</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/logs/refs/heads</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/logs/refs/heads/master</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/logs/refs/remotes</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/logs/refs/remotes/origin</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/logs/refs/remotes/origin/master</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/01</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/01/19742a4cf6f8af501132e080ee936ab1a824c9</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/02</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/02/b1f30a13157784826ef78a49b8edc4fa05a053</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/04</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/04/b39aae0e6823b72ca6253159bd29b175929e12</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/0b</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/0b/2af194ff7199f5a9158b489ebec3ddeb88cfe7</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/20</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/20/4d26ce51bde2013b76b333a6893081544bf5b4</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/23</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/23/5c3ed747172576b2ac532fd695c9aec1490776</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/25</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/25/dbf09b1cf6dd584e47bc4ebb46731b8870774c</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/26</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/26/91d3aa7428a609dfa30444b671c6f48f505368</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/34</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/34/1e865fe165409e9eae9a41ac0315380162f618</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/38</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/38/5ea84b581d6feac50b702cdcfbaf13a5de1685</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/39</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/39/516c368a4942f50672b07a09fab1b84d4266e3</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/3d</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/3d/1bb099cfda8b7a6eeed804e970cbfbb618063b</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/44</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/44/06f90429169ed233024f53af185eea70fb8195</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/4e</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/4e/e48184d11bd72378a335b33b51593ef39079ef</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/55</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/55/583c5b5b0bac212a5b7eaebff20243f01dddaf</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/6d</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/6d/24a3853deac6b6d490a4d34c9e58fcee9ad5b3</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/80</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/80/b49b222ba56ee98dce521c83ee6e9c8a8cbb7f</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/88</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/88/6f47019194cca315ee89cb3b85de36bc6af295</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/8e</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/8e/a09cb4b67ebbd6e071aecf8a55c2eccb9e5542</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/9e</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/9e/6a943999c11653112d267fb00a288ac6d42dde</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/a7</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/a7/ab4f9f03510138f6e4e59f516ade19b801c319</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/ad</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/ad/657979d5f8dfe28f736b28a5075b0360f21cc0</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/b2</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/b2/05d79f7d5e50d0f1b74cef32dd4c932a1cd7c9</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/c7</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/c7/0f09d1de68428adb6e2790d24c671901e71d88</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/ca</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/ca/c83999924d66708a381d72d44dcc88ffee3e2f</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/d0</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/d0/eff70317a1941e18507b105858212ca1a511f4</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/d7</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/d7/f4132cccbfac0bad8e298c58444fb0628ebd25</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/e2</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/e2/c203fe978b83f4ca8d1ba97633f5a5d50bd53b</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/f4</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/f4/13138ef80da395b70807c7ffe0b3d9945af4bc</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/f5</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/f5/06d2f76dc78d7f628f0ef7b66ac9d5c5c915d6</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/info</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/objects/pack</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/refs</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/refs/heads</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/refs/heads/master</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/refs/remotes</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/refs/remotes/origin</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/.git/refs/remotes/origin/master</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/.git/refs/tags</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/TODO</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/css</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/css/normalize.css</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/css/style.css</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/data</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/data/svn_list.xml</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/data/svn_log.xml</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/img</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/img/1.jpeg</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/img/2.jpeg</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/img/3.jpeg</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/img/4.png</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/img/5.jpeg</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/img/favicon.ico</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/img/favicon.png</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/img/iphoneicon.png</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/img/logo.png</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/img/logo@2x.png</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/index.html</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/js</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/js/app.js</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/js/libs</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/js/libs/ember-1.0.0-rc.8.js</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/js/libs/handlebars-1.0.0.js</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/js/libs/jquery-1.9.1.js</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/js/svn.js</path>
+<path
+   kind="dir"
+   action="A">/bsdorn2/Assignment3.0/php</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/php/svn.php</path>
+</paths>
+<msg>adds assignment 3.0</msg>
+</logentry>
+<logentry
    revision="7599">
 <author>bsdorn2</author>
 <date>2014-03-07T00:32:20.236350Z</date>

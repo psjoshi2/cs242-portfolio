@@ -2598,19 +2598,19 @@
    kind="dir">
 <name>Assignment3.0</name>
 <commit
-   revision="7978">
+   revision="8019">
 <author>bsdorn2</author>
-<date>2014-03-12T03:03:29.277010Z</date>
+<date>2014-03-12T19:09:37.085055Z</date>
 </commit>
 </entry>
 <entry
    kind="file">
 <name>Assignment3.0/TODO</name>
-<size>753</size>
+<size>609</size>
 <commit
-   revision="7975">
+   revision="8019">
 <author>bsdorn2</author>
-<date>2014-03-12T00:59:56.756641Z</date>
+<date>2014-03-12T19:09:37.085055Z</date>
 </commit>
 </entry>
 <entry
@@ -2646,19 +2646,19 @@
    kind="dir">
 <name>Assignment3.0/data</name>
 <commit
-   revision="7975">
+   revision="7986">
 <author>bsdorn2</author>
-<date>2014-03-12T00:59:56.756641Z</date>
+<date>2014-03-12T04:16:48.127392Z</date>
 </commit>
 </entry>
 <entry
    kind="file">
 <name>Assignment3.0/data/svn_list.xml</name>
-<size>226066</size>
+<size>58897</size>
 <commit
-   revision="7975">
+   revision="7986">
 <author>bsdorn2</author>
-<date>2014-03-12T00:59:56.756641Z</date>
+<date>2014-03-12T04:16:48.127392Z</date>
 </commit>
 </entry>
 <entry
@@ -2783,30 +2783,30 @@
 <entry
    kind="file">
 <name>Assignment3.0/index.html</name>
-<size>3306</size>
+<size>3293</size>
 <commit
-   revision="7978">
+   revision="8019">
 <author>bsdorn2</author>
-<date>2014-03-12T03:03:29.277010Z</date>
+<date>2014-03-12T19:09:37.085055Z</date>
 </commit>
 </entry>
 <entry
    kind="dir">
 <name>Assignment3.0/js</name>
 <commit
-   revision="7978">
+   revision="8019">
 <author>bsdorn2</author>
-<date>2014-03-12T03:03:29.277010Z</date>
+<date>2014-03-12T19:09:37.085055Z</date>
 </commit>
 </entry>
 <entry
    kind="file">
 <name>Assignment3.0/js/app.js</name>
-<size>2385</size>
+<size>5534</size>
 <commit
-   revision="7978">
+   revision="8019">
 <author>bsdorn2</author>
-<date>2014-03-12T03:03:29.277010Z</date>
+<date>2014-03-12T19:09:37.085055Z</date>
 </commit>
 </entry>
 <entry
@@ -2875,35 +2875,6 @@
    revision="7975">
 <author>bsdorn2</author>
 <date>2014-03-12T00:59:56.756641Z</date>
-</commit>
-</entry>
-<entry
-   kind="dir">
-<name>shopping</name>
-<commit
-   revision="620">
-<author>bsdorn2</author>
-<date>2014-01-29T02:01:04.454563Z</date>
-</commit>
-</entry>
-<entry
-   kind="file">
-<name>shopping/list1.txt</name>
-<size>55</size>
-<commit
-   revision="600">
-<author>bsdorn2</author>
-<date>2014-01-29T01:40:49.168642Z</date>
-</commit>
-</entry>
-<entry
-   kind="file">
-<name>shopping/list2.txt</name>
-<size>76</size>
-<commit
-   revision="609">
-<author>bsdorn2</author>
-<date>2014-01-29T01:53:03.790637Z</date>
 </commit>
 </entry>
 </list>
