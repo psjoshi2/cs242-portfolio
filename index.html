@@ -60,10 +60,10 @@
 
   <script type="text/x-handlebars" id="project">
     <h1>{{title}}</h1>
-    <h2>by {{author}} <small class='muted'>({{date}})</small></h2>
+    <h2>by {{author}} <small class='muted'>({{format-date date}})</small></h2>
     <hr>
     <div class='intro'>
-      {{author}}
+      {{format-markdown author}}
     </div>
     <div class='below-the-fold'>
       {{author}}
