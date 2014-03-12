@@ -98,7 +98,6 @@ for( var i = 0; ; i++ )
   }
   if(jQuery.inArray(name, project_names) == -1)
   {
-    console.log("made it");
     var new_project = new Project(String(project_id), name, date, version, author);
     //console.log(new_project);
     projects.push(new_project);
@@ -158,12 +157,12 @@ App.ProjectRoute = Ember.Route.extend({
   }
 });
 
-// var showdown = new Showdown.converter();
+var showdown = new Showdown.converter();
 
-// Ember.Handlebars.helper('format-markdown', function(input) {
-//   return new Handlebars.SafeString(showdown.makeHtml(input));
-// });
+Ember.Handlebars.helper('format-markdown', function(input) {
+  return new Handlebars.SafeString(showdown.makeHtml(input));
+});
 
-// Ember.Handlebars.helper('format-date', function(date) {
-//   return moment(date).fromNow();
-// });
+Ember.Handlebars.helper('format-date', function(date) {
+  return moment(date).fromNow();
+});
