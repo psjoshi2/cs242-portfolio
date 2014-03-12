@@ -1,0 +1,47 @@
+@charset"UTF-8";
+
+/*------ GENERAL ------*/
+html {
+    background: #e6e8ed;
+}
+body {
+    background: #e6e8ed;
+    font-family:"Open Sans";
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+/*------ MAIN ------*/
+ #main {
+    width: 100%;
+    border: 6px solid #e0e3e8;
+    background: #fff;
+    margin-left: -6px;
+}
+.navbar-inner {
+    border-radius: 0;
+}
+#intro {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-family:'Merriweather', serif;
+    font-weight: 300;
+}
+.about {
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 50px 30%;
+}
+
+/*------ FOOTER ------*/
+ footer {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 75px 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-shadow: 0 1px 0 #eee;
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CS242 Project Explorer</title>
+  <meta charset="utf-8">
+  <title>Bryce Dorn CS242 Portfolio</title>
+  <meta name="description" content="CS242 Portfolio" />
+  <meta name="keywords" content="CS242 Portfolio" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
+  <link REL="SHORTCUT ICON" HREF="img/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="img/iphoneicon.png">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+<body>
+
+  <script type="text/x-handlebars">
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <a class="brand" href="#">CS242 Project Explorer</a>
+        <ul class="nav">
+          <li>{{#link-to 'projects'}}Projects{{/link-to}}</li>
+          <li>{{#link-to 'about'}}About{{/link-to}}</li>
+        </ul>
+      </div>
+    </div>
+
+    {{outlet}}
+  </script>
+
+  <script type="text/x-handlebars" id="projects">
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <table class='table'>
+            <thead>
+              <tr><th>SVN Log</th></tr>
+            </thead>
+            {{#each model}}
+            <tr><td>
+                {{#link-to 'project' this}}{{title}} <small class='muted'>by {{author}}</small>{{/link-to}}
+            </td></tr>
+            {{/each}}
+          </table>
+        </div>
+        <div class="span9">
+          {{outlet}}
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script type="text/x-handlebars" id="projects/index">
+    <p>Please select a SVN repository</p>
+  </script>
+
+  <script type="text/x-handlebars" id="project">
+    <h1>{{title}}</h1>
+    <h2>by {{author}} <small class='muted'>({{format-date date}})</small></h2>
+    <hr>
+    <div class='intro'>
+      {{format-markdown excerpt}}
+    </div>
+    <div class='below-the-fold'>
+      {{format-markdown body}}
+    </div>
+  </script>
+
+  <script type="text/x-handlebars" id="about">
+    <div class='about'>
+      <p>This is a simple portfolio application written in <a href="http://emberjs.com">Ember.js</a>, utilizing <a href="http://www.handlebarsjs.com">Handlebars</a> and <a href="http://jquery.com/">jQuery</a>, taking inspiration from <a href="https://github.com/emberjs/quickstart-code-sample">the quickstart guide</a> as well as a <a href="https://github.com/tildeio/bloggr-client">blogging client</a> written in the language.
+      </p>
+    </div>
+  </script>
+
+  <script src="js/libs/jquery-1.9.1.js"></script>
+  <script src="js/libs/handlebars-1.0.0.js"></script>
+  <script src="js/libs/ember-1.0.0-rc.8.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
+  <script src="js/aux.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

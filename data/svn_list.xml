@@ -1,0 +1,2910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/sp14-cs242/bsdorn2">
+<entry
+   kind="dir">
+<name>Assignment0</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.classpath</name>
+<size>463</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.project</name>
+<size>362</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/.settings</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>629</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/COPYING</name>
+<size>18011</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/LANSimulation.class</name>
+<size>4548</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/Network.class</name>
+<size>7320</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation/internals</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/internals/Node.class</name>
+<size>2748</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/internals/Packet.class</name>
+<size>717</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation/tests</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</name>
+<size>1082</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/tests/LANTests.class</name>
+<size>9669</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/doc</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/LANSimulationDocument.pdf</name>
+<size>36375</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/README</name>
+<size>1230</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/RefactoringAssignment.pdf</name>
+<size>139491</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/toDoList</name>
+<size>1772</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/expectedOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/javadoc.xml</name>
+<size>393</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/junit.jar</name>
+<size>121070</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/LANSimulation.java</name>
+<size>5845</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/Network.java</name>
+<size>11939</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation/internals</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/internals/Node.java</name>
+<size>3976</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/internals/Packet.java</name>
+<size>1828</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation/tests</name>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/tests/LANTests.java</name>
+<size>10293</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/useOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/katatokei.pde</name>
+<size>11787</size>
+<commit
+   revision="1150">
+<author>bsdorn2</author>
+<date>2014-01-30T02:51:23.908444Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0</name>
+<commit
+   revision="6307">
+<author>bsdorn2</author>
+<date>2014-02-24T23:40:40.796784Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.classpath</name>
+<size>366</size>
+<commit
+   revision="6307">
+<author>bsdorn2</author>
+<date>2014-02-24T23:40:40.796784Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.project</name>
+<size>372</size>
+<commit
+   revision="2860">
+<author>bsdorn2</author>
+<date>2014-02-06T04:07:22.419488Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src</name>
+<commit
+   revision="6307">
+<author>bsdorn2</author>
+<date>2014-02-24T23:40:40.796784Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Board.class</name>
+<size>3176</size>
+<commit
+   revision="3215">
+<author>bsdorn2</author>
+<date>2014-02-07T01:13:37.325485Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Board.java</name>
+<size>12351</size>
+<commit
+   revision="6307">
+<author>bsdorn2</author>
+<date>2014-02-24T23:40:40.796784Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Game.class</name>
+<size>1521</size>
+<commit
+   revision="3215">
+<author>bsdorn2</author>
+<date>2014-02-07T01:13:37.325485Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Game.java</name>
+<size>9567</size>
+<commit
+   revision="6307">
+<author>bsdorn2</author>
+<date>2014-02-24T23:40:40.796784Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Piece.class</name>
+<size>6821</size>
+<commit
+   revision="3215">
+<author>bsdorn2</author>
+<date>2014-02-07T01:13:37.325485Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Piece.java</name>
+<size>11409</size>
+<commit
+   revision="6307">
+<author>bsdorn2</author>
+<date>2014-02-24T23:40:40.796784Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Tile.class</name>
+<size>1654</size>
+<commit
+   revision="3215">
+<author>bsdorn2</author>
+<date>2014-02-07T01:13:37.325485Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Tile.java</name>
+<size>3352</size>
+<commit
+   revision="6307">
+<author>bsdorn2</author>
+<date>2014-02-24T23:40:40.796784Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/test</name>
+<commit
+   revision="3215">
+<author>bsdorn2</author>
+<date>2014-02-07T01:13:37.325485Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/ChessTest.class</name>
+<size>2984</size>
+<commit
+   revision="3215">
+<author>bsdorn2</author>
+<date>2014-02-07T01:13:37.325485Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/test/ChessTest.java</name>
+<size>2238</size>
+<commit
+   revision="3215">
+<author>bsdorn2</author>
+<date>2014-02-07T01:13:37.325485Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1</name>
+<commit
+   revision="6307">
+<author>bsdorn2</author>
+<date>2014-02-24T23:40:40.796784Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Doxyfile</name>
+<size>99193</size>
+<commit
+   revision="5016">
+<author>bsdorn2</author>
+<date>2014-02-16T21:10:43.598748Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/output</name>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/output/Board.class</name>
+<size>5047</size>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/output/BoardTest.class</name>
+<size>2130</size>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/output/ChessTest.class</name>
+<size>1651</size>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/output/Game.class</name>
+<size>3977</size>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/output/GameTest.class</name>
+<size>1327</size>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/output/Piece.class</name>
+<size>4594</size>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/output/PieceTest.class</name>
+<size>409</size>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/output/Tile.class</name>
+<size>1831</size>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/output/TileTest.class</name>
+<size>335</size>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/output/guiexample</name>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/output/guiexample/GUIExample.class</name>
+<size>2967</size>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/output/guiexample/GUIExampleView.class</name>
+<size>1994</size>
+<commit
+   revision="5018">
+<author>bsdorn2</author>
+<date>2014-02-16T21:11:27.258506Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src</name>
+<commit
+   revision="6307">
+<author>bsdorn2</author>
+<date>2014-02-24T23:40:40.796784Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Board.class</name>
+<size>3176</size>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Board.java</name>
+<size>11753</size>
+<commit
+   revision="5013">
+<author>bsdorn2</author>
+<date>2014-02-16T20:42:26.739856Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/ChessGUI.java</name>
+<size>7888</size>
+<commit
+   revision="6307">
+<author>bsdorn2</author>
+<date>2014-02-24T23:40:40.796784Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Game.class</name>
+<size>1521</size>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Game.java</name>
+<size>8474</size>
+<commit
+   revision="5013">
+<author>bsdorn2</author>
+<date>2014-02-16T20:42:26.739856Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Piece.class</name>
+<size>6821</size>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Piece.java</name>
+<size>11899</size>
+<commit
+   revision="5013">
+<author>bsdorn2</author>
+<date>2014-02-16T20:42:26.739856Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tile.class</name>
+<size>1654</size>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Tile.java</name>
+<size>3353</size>
+<commit
+   revision="5013">
+<author>bsdorn2</author>
+<date>2014-02-16T20:42:26.739856Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/guiexample</name>
+<commit
+   revision="5013">
+<author>bsdorn2</author>
+<date>2014-02-16T20:42:26.739856Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/guiexample/GUIExample.java</name>
+<size>2025</size>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/guiexample/GUIExampleView.java</name>
+<size>6195</size>
+<commit
+   revision="5013">
+<author>bsdorn2</author>
+<date>2014-02-16T20:42:26.739856Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/test</name>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/test/BoardTest.java</name>
+<size>43</size>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/test/ChessTest.class</name>
+<size>3157</size>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/test/ChessTest.java</name>
+<size>2235</size>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/test/GameTest.java</name>
+<size>42</size>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/test/PieceTest.java</name>
+<size>43</size>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/test/TileTest.java</name>
+<size>42</size>
+<commit
+   revision="4050">
+<author>bsdorn2</author>
+<date>2014-02-13T04:52:11.785844Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/test</name>
+<commit
+   revision="5017">
+<author>bsdorn2</author>
+<date>2014-02-16T21:10:57.226120Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/BoardTest.java</name>
+<size>1811</size>
+<commit
+   revision="5017">
+<author>bsdorn2</author>
+<date>2014-02-16T21:10:57.226120Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/ChessTest.java</name>
+<size>2024</size>
+<commit
+   revision="5017">
+<author>bsdorn2</author>
+<date>2014-02-16T21:10:57.226120Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/GameTest.java</name>
+<size>1321</size>
+<commit
+   revision="5017">
+<author>bsdorn2</author>
+<date>2014-02-16T21:10:57.226120Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/PieceTest.java</name>
+<size>1073</size>
+<commit
+   revision="5017">
+<author>bsdorn2</author>
+<date>2014-02-16T21:10:57.226120Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/test/TileTest.java</name>
+<size>1174</size>
+<commit
+   revision="5017">
+<author>bsdorn2</author>
+<date>2014-02-16T21:10:57.226120Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2</name>
+<commit
+   revision="5785">
+<author>bsdorn2</author>
+<date>2014-02-21T00:14:20.148575Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Doxyfile</name>
+<size>99193</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/manual.png</name>
+<size>251499</size>
+<commit
+   revision="5785">
+<author>bsdorn2</author>
+<date>2014-02-21T00:14:20.148575Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src</name>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Board.class</name>
+<size>3176</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Board.java</name>
+<size>12152</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/ChessGUI.java</name>
+<size>7450</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Game.class</name>
+<size>1521</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Game.java</name>
+<size>9567</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Move.java</name>
+<size>1430</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Piece.class</name>
+<size>6821</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Piece.java</name>
+<size>11625</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Tile.class</name>
+<size>1654</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Tile.java</name>
+<size>3352</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/pieces2.png</name>
+<size>30525</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/tests</name>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/tests/boardSetup.java</name>
+<size>1922</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/tests/gameLogicTest.java</name>
+<size>1321</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/tests/gamePlayTest.java</name>
+<size>2026</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/tests/moveTest.java</name>
+<size>1076</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/tests/pieceSetupTest.java</name>
+<size>1108</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/tests/tileSetupTest.java</name>
+<size>2217</size>
+<commit
+   revision="5775">
+<author>bsdorn2</author>
+<date>2014-02-21T00:03:45.619897Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/csAir</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.gitignore</name>
+<size>467</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/csAir/.idea</name>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/.generators</name>
+<size>861</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/.rakeTasks</name>
+<size>12376</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/CSAir.iml</name>
+<size>22979</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/dataSources.ids</name>
+<size>728</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/dataSources.xml</name>
+<size>1169</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/encodings.xml</name>
+<size>166</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/misc.xml</name>
+<size>318</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/modules.xml</name>
+<size>264</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/csAir/.idea/runConfigurations</name>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/runConfigurations/Development__CSAir.xml</name>
+<size>1876</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/runConfigurations/Production__CSAir.xml</name>
+<size>1778</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/runConfigurations/spec__CSAir.xml</name>
+<size>1649</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/runConfigurations/test__CSAir.xml</name>
+<size>1707</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/csAir/.idea/scopes</name>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/scopes/scope_settings.xml</name>
+<size>139</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/vcs.xml</name>
+<size>182</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/.idea/workspace.xml</name>
+<size>56527</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/Gemfile</name>
+<size>247</size>
+<commit
+   revision="6562">
+<author>bsdorn2</author>
+<date>2014-02-27T08:04:50.469373Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/Gemfile.lock</name>
+<size>678</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/README.md</name>
+<size>128</size>
+<commit
+   revision="6562">
+<author>bsdorn2</author>
+<date>2014-02-27T08:04:50.469373Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/app.rb</name>
+<size>866</size>
+<commit
+   revision="6562">
+<author>bsdorn2</author>
+<date>2014-02-27T08:04:50.469373Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/csAir/controllers</name>
+<commit
+   revision="6562">
+<author>bsdorn2</author>
+<date>2014-02-27T08:04:50.469373Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/controllers/cities.rb</name>
+<size>1743</size>
+<commit
+   revision="6562">
+<author>bsdorn2</author>
+<date>2014-02-27T08:04:50.469373Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/controllers/city_fxns.rb</name>
+<size>799</size>
+<commit
+   revision="6562">
+<author>bsdorn2</author>
+<date>2014-02-27T08:04:50.469373Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/controllers/gcl.rb</name>
+<size>331</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/controllers/input.rb</name>
+<size>294</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/controllers/parse.rb</name>
+<size>1316</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/controllers/stats.rb</name>
+<size>1479</size>
+<commit
+   revision="6562">
+<author>bsdorn2</author>
+<date>2014-02-27T08:04:50.469373Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/controllers/stats_fxns.rb</name>
+<size>1822</size>
+<commit
+   revision="6537">
+<author>bsdorn2</author>
+<date>2014-02-27T05:05:50.207725Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/map_data.json</name>
+<size>16098</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/csAir/models</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/models/graph.rb</name>
+<size>79</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/models/metro.rb</name>
+<size>919</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/models/route.rb</name>
+<size>658</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/csAir/spec</name>
+<commit
+   revision="6562">
+<author>bsdorn2</author>
+<date>2014-02-27T08:04:50.469373Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/spec/function_spec.rb</name>
+<size>358</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/spec/metro_spec.rb</name>
+<size>1449</size>
+<commit
+   revision="6562">
+<author>bsdorn2</author>
+<date>2014-02-27T08:04:50.469373Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/spec/parse_spec.rb</name>
+<size>363</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/spec/route_spec.rb</name>
+<size>695</size>
+<commit
+   revision="6493">
+<author>bsdorn2</author>
+<date>2014-02-26T23:01:44.837545Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/csAir/views</name>
+<commit
+   revision="6562">
+<author>bsdorn2</author>
+<date>2014-02-27T08:04:50.469373Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/csAir/views/menus.rb</name>
+<size>2811</size>
+<commit
+   revision="6562">
+<author>bsdorn2</author>
+<date>2014-02-27T08:04:50.469373Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/map_data.json</name>
+<size>16098</size>
+<commit
+   revision="6423">
+<author>bsdorn2</author>
+<date>2014-02-26T04:19:41.536129Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1</name>
+<commit
+   revision="7977">
+<author>bsdorn2</author>
+<date>2014-03-12T02:59:37.694320Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/TODO</name>
+<size>625</size>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir</name>
+<commit
+   revision="7977">
+<author>bsdorn2</author>
+<date>2014-03-12T02:59:37.694320Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.gitignore</name>
+<size>467</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/.idea</name>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/.generators</name>
+<size>861</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/.rakeTasks</name>
+<size>12376</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/CSAir.iml</name>
+<size>22979</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/dataSources.ids</name>
+<size>728</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/dataSources.xml</name>
+<size>1169</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/encodings.xml</name>
+<size>166</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/misc.xml</name>
+<size>318</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/modules.xml</name>
+<size>264</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/.idea/runConfigurations</name>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/runConfigurations/Development__CSAir.xml</name>
+<size>1876</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/runConfigurations/Production__CSAir.xml</name>
+<size>1778</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/runConfigurations/spec__CSAir.xml</name>
+<size>1649</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/runConfigurations/test__CSAir.xml</name>
+<size>1707</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/.idea/scopes</name>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/scopes/scope_settings.xml</name>
+<size>139</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/vcs.xml</name>
+<size>182</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/.idea/workspace.xml</name>
+<size>56527</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/Gemfile</name>
+<size>247</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/Gemfile.lock</name>
+<size>678</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/README.md</name>
+<size>128</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/app.rb</name>
+<size>1946</size>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/controllers</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/controllers/admin</name>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/admin/admin.rb</name>
+<size>1392</size>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/cities.rb</name>
+<size>1764</size>
+<commit
+   revision="6701">
+<author>bsdorn2</author>
+<date>2014-02-27T22:32:40.166086Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/controllers/city</name>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/city/city.rb</name>
+<size>1744</size>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/city_fxns.rb</name>
+<size>873</size>
+<commit
+   revision="6701">
+<author>bsdorn2</author>
+<date>2014-02-27T22:32:40.166086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/gcl.rb</name>
+<size>331</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/controllers/graph</name>
+<commit
+   revision="7599">
+<author>bsdorn2</author>
+<date>2014-03-07T00:32:20.236350Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/graph/dijkstra.rb</name>
+<size>2543</size>
+<commit
+   revision="7599">
+<author>bsdorn2</author>
+<date>2014-03-07T00:32:20.236350Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/graph/gcl.rb</name>
+<size>254</size>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/input.rb</name>
+<size>542</size>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/load.rb</name>
+<size>608</size>
+<commit
+   revision="7349">
+<author>bsdorn2</author>
+<date>2014-03-06T05:29:10.197299Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/controllers/parse</name>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/parse/parse.rb</name>
+<size>1239</size>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/parse.rb</name>
+<size>1316</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/controllers/route</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/route/route.rb</name>
+<size>1418</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/controllers/stats</name>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/stats/stats.rb</name>
+<size>1473</size>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/stats.rb</name>
+<size>1479</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/controllers/stats_fxns.rb</name>
+<size>2333</size>
+<commit
+   revision="6701">
+<author>bsdorn2</author>
+<date>2014-02-27T22:32:40.166086Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/data</name>
+<commit
+   revision="7349">
+<author>bsdorn2</author>
+<date>2014-03-06T05:29:10.197299Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/data/import_test.json</name>
+<size>233</size>
+<commit
+   revision="7349">
+<author>bsdorn2</author>
+<date>2014-03-06T05:29:10.197299Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/data/map_data.json</name>
+<size>16097</size>
+<commit
+   revision="7349">
+<author>bsdorn2</author>
+<date>2014-03-06T05:29:10.197299Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/helpers</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/helpers/admin</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/helpers/admin/admin_helper.rb</name>
+<size>5352</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/helpers/admin/edit_helper.rb</name>
+<size>2701</size>
+<commit
+   revision="7349">
+<author>bsdorn2</author>
+<date>2014-03-06T05:29:10.197299Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/helpers/city</name>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/helpers/city/city_helper.rb</name>
+<size>1345</size>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/helpers/graph</name>
+<commit
+   revision="7599">
+<author>bsdorn2</author>
+<date>2014-03-07T00:32:20.236350Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/helpers/graph/edge_helper.rb</name>
+<size>1305</size>
+<commit
+   revision="7599">
+<author>bsdorn2</author>
+<date>2014-03-07T00:32:20.236350Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/helpers/graph/graph_helper.rb</name>
+<size>73</size>
+<commit
+   revision="7349">
+<author>bsdorn2</author>
+<date>2014-03-06T05:29:10.197299Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/helpers/graph/vertex_helper.rb</name>
+<size>588</size>
+<commit
+   revision="7349">
+<author>bsdorn2</author>
+<date>2014-03-06T05:29:10.197299Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/helpers/route</name>
+<commit
+   revision="7599">
+<author>bsdorn2</author>
+<date>2014-03-07T00:32:20.236350Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/helpers/route/route_helper.rb</name>
+<size>4155</size>
+<commit
+   revision="7599">
+<author>bsdorn2</author>
+<date>2014-03-07T00:32:20.236350Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/helpers/stats</name>
+<commit
+   revision="7102">
+<author>bsdorn2</author>
+<date>2014-03-02T21:47:58.805984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/helpers/stats/stats_helper.rb</name>
+<size>2413</size>
+<commit
+   revision="7102">
+<author>bsdorn2</author>
+<date>2014-03-02T21:47:58.805984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/map_data.json</name>
+<size>16098</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/models</name>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/models/graph</name>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/models/graph/adjacency_list.rb</name>
+<size>1162</size>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/models/graph/edge.rb</name>
+<size>605</size>
+<commit
+   revision="7349">
+<author>bsdorn2</author>
+<date>2014-03-06T05:29:10.197299Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/models/graph/graph.rb</name>
+<size>1457</size>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/models/graph/graph_old.rb</name>
+<size>607</size>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/models/graph/vertex.rb</name>
+<size>507</size>
+<commit
+   revision="7348">
+<author>bsdorn2</author>
+<date>2014-03-06T05:28:25.487946Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/models/graph.rb</name>
+<size>79</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/models/metro</name>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/models/metro/metro.rb</name>
+<size>919</size>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/models/metro.rb</name>
+<size>919</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/models/route</name>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/models/route/route.rb</name>
+<size>658</size>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/models/route.rb</name>
+<size>658</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/spec</name>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/spec/function_spec.rb</name>
+<size>358</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/spec/graph</name>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/spec/graph/dijkstra_spec.rb</name>
+<size>537</size>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/spec/graph/graph_spec.rb</name>
+<size>1348</size>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/spec/metro</name>
+<commit
+   revision="7102">
+<author>bsdorn2</author>
+<date>2014-03-02T21:47:58.805984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/spec/metro/metro_spec.rb</name>
+<size>1455</size>
+<commit
+   revision="7102">
+<author>bsdorn2</author>
+<date>2014-03-02T21:47:58.805984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/spec/metro_spec.rb</name>
+<size>1449</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/spec/parse</name>
+<commit
+   revision="7102">
+<author>bsdorn2</author>
+<date>2014-03-02T21:47:58.805984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/spec/parse/parse_spec.rb</name>
+<size>381</size>
+<commit
+   revision="7102">
+<author>bsdorn2</author>
+<date>2014-03-02T21:47:58.805984Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/spec/parse_spec.rb</name>
+<size>363</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/spec/route</name>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/spec/route/route_spec.rb</name>
+<size>4938</size>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/spec/route_spec.rb</name>
+<size>695</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/spec/spec_helper.rb</name>
+<size>401</size>
+<commit
+   revision="7102">
+<author>bsdorn2</author>
+<date>2014-03-02T21:47:58.805984Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/spec/stats</name>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/views</name>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/views/admin</name>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/csAir/views/menus.rb</name>
+<size>3689</size>
+<commit
+   revision="7552">
+<author>bsdorn2</author>
+<date>2014-03-06T23:36:57.943477Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/views/metro</name>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/views/route</name>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/csAir/views/stats</name>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/map_data.json</name>
+<size>16098</size>
+<commit
+   revision="6685">
+<author>bsdorn2</author>
+<date>2014-02-27T21:01:38.742085Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/map_data_backup.json</name>
+<size>16098</size>
+<commit
+   revision="7054">
+<author>bsdorn2</author>
+<date>2014-03-01T04:02:20.785372Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0</name>
+<commit
+   revision="7978">
+<author>bsdorn2</author>
+<date>2014-03-12T03:03:29.277010Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/TODO</name>
+<size>753</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/css</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/css/normalize.css</name>
+<size>7589</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/css/style.css</name>
+<size>796</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/data</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/data/svn_list.xml</name>
+<size>226066</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/data/svn_log.xml</name>
+<size>196723</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/img</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/img/1.jpeg</name>
+<size>160236</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/img/2.jpeg</name>
+<size>177000</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/img/3.jpeg</name>
+<size>303884</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/img/4.png</name>
+<size>158978</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/img/5.jpeg</name>
+<size>200900</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/img/favicon.ico</name>
+<size>622</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/img/favicon.png</name>
+<size>1400</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/img/iphoneicon.png</name>
+<size>5208</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/img/logo.png</name>
+<size>2376</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/img/logo@2x.png</name>
+<size>2815</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/index.html</name>
+<size>3306</size>
+<commit
+   revision="7978">
+<author>bsdorn2</author>
+<date>2014-03-12T03:03:29.277010Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/js</name>
+<commit
+   revision="7978">
+<author>bsdorn2</author>
+<date>2014-03-12T03:03:29.277010Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/js/app.js</name>
+<size>2385</size>
+<commit
+   revision="7978">
+<author>bsdorn2</author>
+<date>2014-03-12T03:03:29.277010Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/js/libs</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/js/libs/ember-1.0.0-rc.8.js</name>
+<size>1038415</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/js/libs/handlebars-1.0.0.js</name>
+<size>72766</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/js/libs/jquery-1.9.1.js</name>
+<size>268381</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/js/svn.js</name>
+<size>96</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/php</name>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/php/svn.php</name>
+<size>129</size>
+<commit
+   revision="7975">
+<author>bsdorn2</author>
+<date>2014-03-12T00:59:56.756641Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>shopping</name>
+<commit
+   revision="620">
+<author>bsdorn2</author>
+<date>2014-01-29T02:01:04.454563Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>shopping/list1.txt</name>
+<size>55</size>
+<commit
+   revision="600">
+<author>bsdorn2</author>
+<date>2014-01-29T01:40:49.168642Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>shopping/list2.txt</name>
+<size>76</size>
+<commit
+   revision="609">
+<author>bsdorn2</author>
+<date>2014-01-29T01:53:03.790637Z</date>
+</commit>
+</entry>
+</list>
+</lists>

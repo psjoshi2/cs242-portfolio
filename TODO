@@ -1,0 +1,21 @@
+TODO
+
+Each project:
+
+  The title
+  The date
+  The version
+  The summary for each project (the most recent commit message for that assignment)
+  Each file in the project with its size:
+
+    The type of the file
+    The path to the file on SVN
+    The file itself loaded in an iframe only on demand
+    Each version of each file in the project
+      The number is the revision number for that commit
+      The author is the netid of the committer
+      The info is the commit message for that revision
+      The date is the date of that commit
+
+
+Make it get svn data synchronously
