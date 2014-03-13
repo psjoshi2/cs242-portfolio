@@ -5,26 +5,26 @@
     z-index: 100;
 }
 html {
-    background: rgba(245,246,248,1);
     height: 100%;
+    background: rgba(245,246,248,1);
 }
 body {
+    padding-bottom: 20px;
     background: rgba(245,246,248,1);
     font-family:"Open Sans";
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
-    padding-bottom: 20px;
 }
 
 /*------ MAIN ------*/
 .welcome {
+    z-index: 10;
+    padding-top: 200px;
     width: 100%;
     height: 1000px;
-    opacity: 0.05;
     text-align: center;
-    padding-top: 200px;
     font-weight: 700;
-    z-index: 10;
+    opacity: 0.05;
 }
 .freakinhuge {
     font-size: 20em;
@@ -33,9 +33,9 @@ body {
     padding: 0;
 }
 .tablewell {
-    background: rgba(242,243,245,1);
     overflow: scroll;
     height: 500px;
+    background: rgba(242,243,245,1);
 }
 .filetable-title {
     padding-left: 10px;
@@ -43,8 +43,11 @@ body {
 .navbar-inner {
     border-radius: 0;
 }
+li a.ember-view.active {
+    color: #fff !important;
+}
 .about {
-    font-size: 1.2em;
     margin: 0 auto;
     padding: 50px 30%;
+    font-size: 1.2em;
 }
