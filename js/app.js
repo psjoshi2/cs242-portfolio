@@ -8,12 +8,6 @@ listj = get_json("data/svn_list.xml");
 logj = get_json("data/svn_log.xml");
 
 // Create array of 'Project' objects
-// Project:
-//  - Title
-//  - Date
-//  - Version
-//  - Summary
-//  - Author = netID
 var Project = makeStruct("id,title,date,version,author,files");
 
 var projects = [];
@@ -42,15 +36,6 @@ for( var i = 0; i < listj.lists.list.entry.length ; i++ )
 } // console.log(projects);
 
 // Each project should have array of File objects
-// File:
-//  - Type
-//  - Path
-//  - URL to File on SVN
-//  - Each version of the file
-//    * Number = revision number for commit
-//    * Author = netID
-//    * Info = commit msg
-//    * Date of commmit
 var File = makeStruct("name,size,type,path,url,versions,version,author,commitmsg,date,linkname,id");
 var Version = makeStruct("date,number,author,msg");
 
