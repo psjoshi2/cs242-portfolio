@@ -1,146 +1,138 @@
-// Struct factory, takes in params for struct and returns constructor
-function makeStruct(params) {
-  var params = params.split(',');
-  var num_params = params.length;
-  function Object() {
-    for (var i = 0; i < num_params; i++) {
-      this[params[i]] = arguments[i];
-    }
-  }
-  return Object;
-}
-
-// Changes XML to JSON - Taken from http://davidwalsh.name/convert-xml-json
-function xmlToJson(xml) {
-  
-  // Create the return object
-  var obj = {};
-
-  if (xml.nodeType == 1) { // element
-    // do attributes
-    if (xml.attributes.length > 0) {
-    obj["@attributes"] = {};
-      for (var j = 0; j < xml.attributes.length; j++) {
-        var attribute = xml.attributes.item(j);
-        obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
-      }
-    }
-  } else if (xml.nodeType == 3) { // text
-    obj = xml.nodeValue;
-  }
-
-  // do children
-  if (xml.hasChildNodes()) {
-    for(var i = 0; i < xml.childNodes.length; i++) {
-      var item = xml.childNodes.item(i);
-      var nodeName = item.nodeName;
-      if (typeof(obj[nodeName]) == "undefined") {
-        obj[nodeName] = xmlToJson(item);
-      } else {
-        if (typeof(obj[nodeName].push) == "undefined") {
-          var old = obj[nodeName];
-          obj[nodeName] = [];
-          obj[nodeName].push(old);
-        }
-        obj[nodeName].push(xmlToJson(item));
-      }
-    }
-  }
-  return obj;
-};
-
 // Create new ember app
 App = Ember.Application.create({});
 
 // Load svn list
 // TODO: Make this happen when app loads
-// $.ajax({
-//   type: "GET",
-//   url: "jquery_xml.xml",
-//   dataType: "xml",
-//   success: parseXml
-// });
-var list = loadXMLDoc("data/svn_list.xml");
-var lj = xmlToJson(list);
-// console.log(lj.lists.list.entry[0]);
-// console.log("Author: "+lj.lists.list.entry[0]['commit']['author']['#text']);
-// console.log("Date: "+lj.lists.list.entry[0]['commit']['date']['#text']);
-// console.log("Revision #: "+lj.lists.list.entry[0]['commit']['@attributes']['revision']);
-// console.log("Name: "+lj.lists.list.entry[0]['name']['#text']);
-// console.log(lj.lists.list.entry[0]['@attributes']['kind']);
+var BASE_SVN_URL = "https://subversion.ews.illinois.edu/svn/sp14-cs242/bsdorn2/";
+listj = get_json("data/svn_list.xml");
+logj = get_json("data/svn_log.xml");
 
 // Create array of 'Project' objects
+// Project:
 //  - Title
 //  - Date
 //  - Version
 //  - Summary
 //  - Author = netID
-var Project = makeStruct("id,title,date,version,author");
+var Project = makeStruct("id,title,date,version,author,files");
 
 var projects = [];
 var project_names = [];
 var project_id = 0;
-for( var i = 0; ; i++ )
+for( var i = 0; i < listj.lists.list.entry.length ; i++ )
 {
-  // Check if done
-  if(!lj.lists.list.entry[i]) break;
-
   // Retrieve params
-  var kind = lj.lists.list.entry[i]['@attributes']['kind'];
-  var name = lj.lists.list.entry[i]['name']['#text'];
-  var date = lj.lists.list.entry[i]['commit']['date']['#text'];
-  var version = lj.lists.list.entry[i]['commit']['@attributes']['revision'];
-  var author = lj.lists.list.entry[i]['commit']['author']['#text'];
-  
-  if(name.indexOf("/") >= 0)
-  {
+  var kind = listj.lists.list.entry[i]['@attributes']['kind'];
+  var name = listj.lists.list.entry[i]['name']['#text'];
+  var date = listj.lists.list.entry[i]['commit']['date']['#text'];
+  var version = listj.lists.list.entry[i]['commit']['@attributes']['revision'];
+  var author = listj.lists.list.entry[i]['commit']['author']['#text'];
+  var files = [];
+
+  if(name.indexOf("/") >= 0) {
     name = name.slice(0, name.indexOf("/"));
   }
-  if(jQuery.inArray(name, project_names) == -1)
-  {
-    var new_project = new Project(String(project_id), name, date, version, author);
+  if(jQuery.inArray(name, project_names) == -1) {
+    var new_project = new Project(String(project_id), name, date, version, author, files);
     //console.log(new_project);
     projects.push(new_project);
     project_names.push(name);
     project_id += 1;
   }
-}
+} // console.log(projects);
 
-// console.log(projects);
-
-// Each project should have array of 'file' objects
-// File
+// Each project should have array of File objects
+// File:
 //  - Type
 //  - Path
-//  - File itself?
+//  - URL to File on SVN
 //  - Each version of the file
 //    * Number = revision number for commit
 //    * Author = netID
 //    * Info = commit msg
 //    * Date of commmit
-var File = makeStruct("size, type, path, content, versions, version, author, commitmsg, date");
+var File = makeStruct("name,size,type,path,url,versions,version,author,commitmsg,date,linkname,id");
+var Version = makeStruct("date,number,author,msg");
 
+// Get info for files from svn_list
+for( i = 0; i < listj.lists.list.entry.length ; i++ ) {
+  // Retrieve params only from files, not directories
+  var check = listj.lists.list.entry[i]['size'];
+  if(check) {
+    var name = listj.lists.list.entry[i]['name']['#text'];
+    var date = listj.lists.list.entry[i]['commit']['date']['#text'];
+    var version = listj.lists.list.entry[i]['commit']['@attributes']['revision'];
+    var author = listj.lists.list.entry[i]['commit']['author']['#text'];
+    var size = check['#text'];
 
-// var test = [{
-//   id: '1',
-//   title: "Rails is Omakase",
-//   author: "Bryce Dorn",
-//   date: new Date('12-27-2012'),
-//   excerpt: "There are lots of à la carte software environments in this world. Places where in order to eat, you must first carefully look over the menu of options to order exactly what you want.",
-//   body: "I want this for my ORM, I want that for my template language, and let's finish it off with this routing library. Of course, you're going to have to know what you want, and you'll rarely have your horizon expanded if you always order the same thing, but there it is. It's a very popular way of consuming software.\n\nRails is not that. Rails is omakase."
-// }, {
-//   id: '2',
-//   title: "The Parley Letter",
-//   author: { name: "d2h" },
-//   date: new Date('12-24-2012'),
-//   excerpt: "My [appearance on the Ruby Rogues podcast](http://rubyrogues.com/056-rr-david-heinemeier-hansson/) recently came up for discussion again on the private Parley mailing list.",
-//   body: "A long list of topics were raised and I took a time to ramble at large about all of them at once. Apologies for not taking the time to be more succinct, but at least each topic has a header so you can skip stuff you don't care about.\n\n### Maintainability\n\nIt's simply not true to say that I don't care about maintainability. I still work on the oldest Rails app in the world."  
-// }];
-// console.log(test);
+    // Add new file
+    for( var l = 0; l < project_names.length; l++ ) {
+      if(name.indexOf("/") >= 0) {
+        temp_name = name.slice(0, name.indexOf("/"));
+      } else temp_name = name;
+      if(project_names[l] == temp_name) {
+        var proj_idx = l;
+      }
+    }
+
+    var actual_name = reverse(name);
+    actual_name = actual_name.slice(0,actual_name.indexOf("/"));
+    actual_name = reverse(actual_name);
+
+    var versions = [];
+    var new_file = new File(actual_name,size,"",name,BASE_SVN_URL+name,versions,version,author,"",date,"#"+i,i);
+    projects[proj_idx].files.push(new_file);
+  }
+} // console.log(projects);
+
+// Get info for files from svn_log
+for( i = 0; i < logj.log.logentry.length ; i++ ) {
+  // Retrieve params
+  var kind = logj.log.logentry[i]['@attributes']['kind'];    
+  var date = logj.log.logentry[i]['date']['#text'];
+  var version = logj.log.logentry[i]['@attributes']['revision'];
+  var author = logj.log.logentry[i]['author']['#text'];
+  var msg = logj.log.logentry[i]['msg']['#text'];
+  var paths = [];
+
+  // Get path to each file
+  for( var j = 0; j < logj.log.logentry[i].paths.path.length; j++ ) {
+    // Make sure we're only getting files
+    if(logj.log.logentry[i].paths.path[j]['@attributes']['kind'] == "file") {
+      paths.push(logj.log.logentry[i].paths.path[j]['#text'])
+    }
+  }
+
+  // Update each file
+  for( j = 0; j < paths.length; j++ ) {
+    var file_path = paths[j].replace("/bsdorn2/","");
+    project_name = file_path.slice(0, file_path.indexOf("/"));
+    var project_idx = project_names.indexOf(project_name);
+    if(project_idx != -1) { // Ignore what we don't care about
+      // Find file in accordion
+      for( var k = 0; k < projects[project_idx].files.length; k++ ) {
+        // console.log(projects[project_idx].files[k]);
+        if(file_path == projects[project_idx].files[k].path) {
+          // console.log(file_path+" is the same as "+ projects[project_idx].files[k].path);
+          var new_version = new Version(date,version,author,msg);
+          projects[project_idx].files[k].versions.push(new_version);
+          var filetype = paths[j].substr(paths[j].lastIndexOf('.') + 1);
+          projects[project_idx].files[k].type = filetype;
+          // console.log(projects[project_idx].files[k].commitmsg);
+          projects[project_idx].files[k].commitmsg = msg;
+        }
+      }
+    }
+  }
+} 
+// Convert to Ember array
+projects = Ember.A($.makeArray(projects));
+console.log(projects[0]);
 
 App.Router.map(function() {
+  this.resource('home');
   this.resource('about');
-  this.resource('projects', function() {
+  this.resource('projects' , function() {
     this.resource('project', { path: ':project_id' });
   });
 });
@@ -150,7 +142,6 @@ App.ProjectsRoute = Ember.Route.extend({
     return projects;
   }
 });
-
 App.ProjectRoute = Ember.Route.extend({
   model: function(params) {
     return projects.findBy('id', params.project_id);
