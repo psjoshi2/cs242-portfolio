@@ -112,8 +112,7 @@ for( i = 0; i < logj.log.logentry.length ; i++ ) {
 } 
 // Convert to Ember array
 projects = Ember.A($.makeArray(projects));
-console.log(projects[0]);
-
+// console.log(projects[0]);
 App.Router.map(function() {
   this.resource('home', { path: '/' });
   this.resource('about');
