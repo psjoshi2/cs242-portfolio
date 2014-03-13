@@ -130,7 +130,7 @@ projects = Ember.A($.makeArray(projects));
 console.log(projects[0]);
 
 App.Router.map(function() {
-  this.resource('home');
+  this.resource('home', { path: '/' });
   this.resource('about');
   this.resource('projects' , function() {
     this.resource('project', { path: ':project_id' });
