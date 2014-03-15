@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="css/style.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,700' rel='stylesheet' type='text/css'>
   <link REL="SHORTCUT ICON" HREF="img/favicon.ico">
-  <link rel="apple-touch-icon-precomposed" href="img/iphoneicon.png">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 </head>
 <body>
@@ -61,39 +60,65 @@
     <h2>by {{author}} <small class='muted'>({{format-date date}})</small></h2>
     <hr>
     <div class="well tablewell">
-    <table class='table table-bordered table-striped table-hover accordion' id='files-collapse'>
-      <thead>
-        <tr><th><h4 class="filetable-title">{{files.length}} Files</h4></th></tr>
-      </thead>
-      {{#each file in files}}
-      <tr>
-        <td>
-        <div class="accordion-group">
-          <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#files-collapse" {{bind-attr href=file.linkname}}>{{file.name}}</a>
-          </div>
-          <div {{bind-attr id=file.id}} class="accordion-body collapse">
-            <div class="accordion-inner">
-              <h5>Size: <small>{{file.size}} bytes</small></h5>
-              <h5>Filetype: <small>{{file.type}}</small></h5>
-              <h5>Author: <small>{{file.author}}</small></h5>
-              <h5>Date: <small>{{file.date}}</small></h5>
-              <h5>Path: <small>{{file.path}}</small></h5>
-              <a {{bind-attr href=file.url}}>{{file.url}}</a>
-
-              <h4>Versions:</h4>
-              {{#each version_t in file.versions}}
-                <small>{{version_t.number}}: {{version_t.msg}}</small>
-                <small class='muted'>{{format-date version_t.date}} by {{version_t.author}}</small>
-                </br>
-              {{/each}}
+      <table class='table table-bordered table-striped table-hover accordion' id='files-collapse'>
+        <thead>
+          <tr><th><h4 class="filetable-title">{{files.length}} Files:</h4></th></tr>
+        </thead>
+        {{#each file in files}}
+        <tr>
+          <td>
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#files-collapse" {{bind-attr href=file.linkname}}>{{file.name}}</a>
+            </div>
+            <div {{bind-attr id=file.id}} class="accordion-body collapse">
+              <div class="accordion-inner">
+                <h5>Size: <small>{{file.size}} bytes</small></h5>
+                <h5>Filetype: <small>{{file.type}}</small></h5>
+                <h5>Author: <small>{{file.author}}</small></h5>
+                <h5>Date: <small>{{format-date-specific file.date}}</small></h5>
+                <h5>Path: <small>{{file.path}}</small></h5>
+                <a {{bind-attr href=file.url}}>{{file.url}}</a>
+                    
+                <h4>Versions:</h4>
+                {{#each version_t in file.versions}}
+                  <small>{{version_t.number}}: {{version_t.msg}}</small>
+                  <small class='muted'>{{format-date version_t.date}} by {{version_t.author}}</small>
+                  </br>
+                {{/each}}
+                <hr>
+                <div class="iframe">
+                  <a onclick="iframeIt($(this).attr('id'),'penis'+$(this).attr('class'))" {{bind-attr id=file.url class=file.id}}>Load file contents:</a>
+                  <iframe class="well code" {{bind-attr id=file.penid}}></iframe>
+                </div>
+                <hr>
+                <h4>Comments:</h4>
+                <div class="well tablewell commentwell">
+                {{#each comment_t in file.comments}}
+                  <small><img class='commenter'/> {{comment_t.author}}, {{format-date comment_t.date}}</small>
+                  </br>
+                  <p class='muted'>{{format-markdown comment_t.content}}</p>
+                  </br>
+                {{/each}}
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        </td>
-      </tr>
+          </td>
+        </tr>
+        {{/each}}
+      </table>
+    </div>
+    <div class="well tablewell comments">
+      <tr><th><h4 class="filetable-title">{{comments.length}} Comments:</h4></th></tr>
+      <div class="well tablewell commentwell">
+      {{#each comment_t in project.comments}}
+        <small><img class='commenter'/> {{comment_t.author}}, {{format-date comment_t.date}}</small>
+        </br>
+        <p class='muted'>{{format-markdown comment_t.content}}</p>
+        </br>
       {{/each}}
-    </table>
+      </div>
     </div>
   </script>
 
@@ -105,11 +130,11 @@
 
   <script type="text/x-handlebars" id="about">
     <div class='about'>
-      <p>This is a simple portfolio application written in <a href="http://emberjs.com">Ember.js</a>, utilizing <a href="http://www.handlebarsjs.com">Handlebars</a> and <a href="http://jquery.com/">jQuery</a>, taking inspiration from <a href="https://github.com/emberjs/quickstart-code-sample">the quickstart guide</a> as well as a <a href="https://github.com/tildeio/bloggr-client">blogging client</a> written in the framework.
+      <p>This is a simple portfolio application written in <a href="http://emberjs.com">Ember.js</a>, utilizing <a href="http://www.handlebarsjs.com">Handlebars</a> and <a href="http://jquery.com/">jQuery</a>, taking inspiration from <a href="https://github.com/emberjs/quickstart-code-sample">the quickstart guide</a> as well as a <a href="https://github.com/tildeio/bloggr-client">blogging client</a> written in the framework. Additional features include a <a href="https://github.com/ChaseFlorell/jQuery.ProfanityFilter">profanity filter</a> by Chase Florell as well as an <a href="http://davidwalsh.name/convert-xml-json">XML to JSON converter</a> to handle the SVN data in a more javascript-friendly format.
       </p>
       <p>I'm a Junior at the University of Illinois going for a degree in CS in Engineering. I like to design things. I also love cats and music and Adventure Time, and ideally my life will revolve around all of those in the future.
       </p>
-      <p>Feel free to check out my <a href="bryce.io">website</a> which has some more work that I've done, or to shoot me an <a href=mailto:brycedorn@gmail.com>email</a> and we can chat!
+      <p>Feel free to check out my <a href="http://bryce.io">website</a> which has some more work that I've done, or to shoot me an <a href=mailto:brycedorn@gmail.com>email</a> and we can chat!
       </p>
     </div>
   </script>
@@ -121,6 +146,7 @@
   <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
   <script src="js/aux.js"></script>
+  <script src="js/import.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
