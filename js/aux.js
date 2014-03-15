@@ -71,3 +71,21 @@ function xmlToJson(xml) {
 function reverse(s){
   return s.split("").reverse().join("");
 }
+
+// Replace naughty words with random words
+function filter(div){
+  $(div).profanityFilter({
+      externalSwears: 'data/swears.json',
+      replaceWith: ['happy', 'funny', 'lucky']
+  });
+}
+
+// See if a name should be before another in a sorted array
+function compareNames(a, b){
+  return ((a.name.toLowerCase() < b.name.toLowerCase()) ? -1 : ((a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : 0));
+}
+
+// Dynamically load file contents into file's iframe
+function iframeIt(url,id) {
+  $("iframe#"+id).attr("src", url);
+}
