@@ -1,6 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <log>
 <logentry
+   revision="8202">
+<author>bsdorn2</author>
+<date>2014-03-13T19:15:44.104727Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/css/style.css</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/index.html</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/js/app.js</path>
+</paths>
+<msg>minor changes</msg>
+</logentry>
+<logentry
+   revision="8178">
+<author>bsdorn2</author>
+<date>2014-03-13T18:41:32.399742Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/js/app.js</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/js/tests.js</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/qunit.html</path>
+</paths>
+<msg>adds more testing</msg>
+</logentry>
+<logentry
+   revision="8173">
+<author>bsdorn2</author>
+<date>2014-03-13T18:16:21.993470Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/css/style.css</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/js/app.js</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/js/svn.js</path>
+</paths>
+<msg>fixes active links, index page</msg>
+</logentry>
+<logentry
+   revision="8074">
+<author>bsdorn2</author>
+<date>2014-03-13T05:30:56.054712Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/css/qunit-1.14.0.css</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/get_data</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/index.php</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/js/aux.js</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/js/libs/bootstrap.min.js</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/js/libs/qunit-1.14.0.js</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/js/tests.js</path>
+<path
+   kind="file"
+   action="A">/bsdorn2/Assignment3.0/qunit.html</path>
+</paths>
+<msg>adds files that werent added before</msg>
+</logentry>
+<logentry
+   revision="8073">
+<author>bsdorn2</author>
+<date>2014-03-13T05:29:04.908108Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/TODO</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/css/style.css</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/index.html</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/js/app.js</path>
+</paths>
+<msg>updates</msg>
+</logentry>
+<logentry
+   revision="8065">
+<author>bsdorn2</author>
+<date>2014-03-13T04:07:30.612883Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/TODO</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/css/style.css</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/data/svn_list.xml</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/data/svn_log.xml</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/index.html</path>
+<path
+   kind="file"
+   action="M">/bsdorn2/Assignment3.0/js/app.js</path>
+</paths>
+<msg>nice</msg>
+</logentry>
+<logentry
    revision="8019">
 <author>bsdorn2</author>
 <date>2014-03-12T19:09:37.085055Z</date>
