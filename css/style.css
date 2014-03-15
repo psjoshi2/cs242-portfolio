@@ -24,6 +24,7 @@ a {
     font-weight: 700;
     opacity: 0.05;
 }
+
 a#freakinhuge {
     font-size: 20em;
     color: #999;
@@ -33,13 +34,28 @@ a#freakinhuge:hover {
     text-decoration: none;
     cursor: default;
 }
+.about {
+    margin: 0 auto;
+    padding: 50px 30%;
+    font-size: 1.2em;
+}
 .browser {
     padding: 0;
 }
 .tablewell {
     overflow: scroll;
-    height: 500px;
+    height: 400px;
     background: rgba(242,243,245,1);
+}
+.comments {
+    height: 200px;
+}
+.commentwell {
+    height: 100px;
+}
+.code {
+    width: 98%;
+    padding: 2px;
 }
 .filetable-title {
     padding-left: 10px;
@@ -47,13 +63,14 @@ a#freakinhuge:hover {
 .navbar-inner {
     border-radius: 0;
 }
+.iframe a {
+    cursor: pointer;
+}
 li a.ember-view.active {
     color: #fff !important;
 }
-.about {
-    margin: 0 auto;
-    padding: 50px 30%;
-    font-size: 1.2em;
+iframe {
+    width: 100%;
 }
 
 @media only screen and (max-width: 767px) {
