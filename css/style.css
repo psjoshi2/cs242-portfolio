@@ -50,8 +50,21 @@ a#freakinhuge:hover {
 .comments {
     height: 200px;
 }
+.comment {
+    padding-left: 12px;
+}
+.replybtn {
+    float: right;
+    margin-right: 10px;
+}
 .commentwell {
-    height: 100px;
+    height: 400px;
+}
+.commentarea, .authorbox {
+    width: 50%;
+}
+#commentbox {
+    display: none;
 }
 .code {
     width: 98%;
@@ -70,6 +83,7 @@ li a.ember-view.active {
     color: #fff !important;
 }
 iframe {
+    display: none;
     width: 100%;
 }
 
