@@ -8,7 +8,7 @@ function setupDB() {
 
   // Struct factories
   var Project = makeStruct("id,title,date,version,author,files,comments");
-  var File = makeStruct("name,size,type,path,url,versions,version,author,commitmsg,date,linkname,id,comments,foop,project_idx");
+  var File = makeStruct("name,size,type,path,url,versions,version,author,commitmsg,date,linkname,id,comments,project_idx");
   var Version = makeStruct("date,number,author,msg");
 
   // Create array of 'Project' objects
@@ -65,7 +65,7 @@ function setupDB() {
       actual_name = reverse(actual_name);
       var versions = [];
       var current_idx = projects[proj_idx].files.length;
-      var new_file = new File(actual_name,size, "", name, BASE_SVN_URL+name, versions, version, author, "", date, "#"+current_idx, current_idx, file_comments,"foop"+i,project_id);
+      var new_file = new File(actual_name,size, "", name, BASE_SVN_URL+name, versions, version, author, "", date, "#"+current_idx, current_idx, file_comments, project_id);
       projects[proj_idx].files.push(new_file);
     }
   }
