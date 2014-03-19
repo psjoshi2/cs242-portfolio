@@ -89,8 +89,8 @@
                 <hr>
 
                 <div class="iframe">
-                  <a onclick="iframeIt($(this).attr('id'),'foop'+$(this).attr('class'))" {{bind-attr id=file.url class=file.id}}>Load file contents</a>
-                  <iframe class="well code" {{bind-attr id=file.foop}}></iframe>
+                  <a onclick="iframeIt($(this))" {{bind-attr id=file.url}}>Load file contents</a>
+                  <iframe class="well code"></iframe>
                 </div>
                 <hr>
 
