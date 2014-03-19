@@ -88,9 +88,9 @@ function compareNames(a, b){
 }
 
 // Dynamically load file contents into file's iframe
-function iframeIt(url,id) {
-  $("iframe#"+id).css('display','block');
-  $("iframe#"+id).attr("src", url);
+function iframeIt(div) {
+  var url = $(div).attr('id');
+  $(div).parent().find("iframe").attr("src", url).css('display','block');
 }
 
 // Taken from http://stackoverflow.com/questions/8398403/jquery-javascript-to-check-if-correct-e-mail-was-entered
