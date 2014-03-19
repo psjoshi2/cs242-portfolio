@@ -2,8 +2,7 @@
 App = Ember.Application.create({});
 
 // Get SVN data
-projects = importSVNData();
-projects = Ember.A($.makeArray(projects));
+projects = Ember.A($.makeArray(setupDB()));
 
 // Routing
 App.Router.map(function() {
