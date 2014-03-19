@@ -87,19 +87,32 @@
                   </br>
                 {{/each}}
                 <hr>
+
                 <div class="iframe">
-                  <a onclick="iframeIt($(this).attr('id'),'penis'+$(this).attr('class'))" {{bind-attr id=file.url class=file.id}}>Load file contents:</a>
-                  <iframe class="well code" {{bind-attr id=file.penid}}></iframe>
+                  <a onclick="iframeIt($(this).attr('id'),'foop'+$(this).attr('class'))" {{bind-attr id=file.url class=file.id}}>Load file contents</a>
+                  <iframe class="well code" {{bind-attr id=file.foop}}></iframe>
                 </div>
                 <hr>
-                <h4>Comments:</h4>
+
+                <h4>{{file.comments.length}} Comments:</h4>
                 <div class="well tablewell commentwell">
-                {{#each comment_t in file.comments}}
-                  <small><img class='commenter'/> {{comment_t.author}}, {{format-date comment_t.date}}</small>
-                  </br>
-                  <p class='muted'>{{format-markdown comment_t.content}}</p>
-                  </br>
-                {{/each}}
+                  {{#each comment_t in file.comments}}
+                    <div class="well">
+                      <img {{bind-attr src=comment_t.img}} class="img-polaroid"></img>
+                      <h4>{{comment_t.author}}<small class="muted"> on {{comment_t.date}}</small></h4>
+                      <p class="comment">{{comment_t.content}}</p>
+                      <button class="btn btn-small replybtn btn-danger">Delete</button>
+                      <button class="btn btn-small replybtn">Reply</button>
+                      </br>
+                    </div>
+                  {{/each}}
+                  <div class="filecomment" {{bind-attr id=id}}>
+                    <input type="text" class="authorbox" placeholder="Email, or leave blank for anonymous"></input>
+                    </br>
+                    <textarea rows="4" class="commentarea"></textarea>
+                    </br>
+                    <button class="btn" onclick="addComment($(this))" {{bind-attr id=file.id}}>Add comment</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -109,15 +122,29 @@
         {{/each}}
       </table>
     </div>
-    <div class="well tablewell comments">
+    </br>
+    <div class="comments">
       <tr><th><h4 class="filetable-title">{{comments.length}} Comments:</h4></th></tr>
       <div class="well tablewell commentwell">
-      {{#each comment_t in project.comments}}
-        <small><img class='commenter'/> {{comment_t.author}}, {{format-date comment_t.date}}</small>
-        </br>
-        <p class='muted'>{{format-markdown comment_t.content}}</p>
-        </br>
-      {{/each}}
+        {{#each comment_t in comments}}
+          <div class="well">
+            <img {{bind-attr src=comment_t.img}} class="img-polaroid"></img>
+            <h4>{{comment_t.author}}<small class="muted"> on {{comment_t.date}}</small></h4>
+            <p class="comment">{{comment_t.content}}</p>
+            <button class="btn btn-small replybtn btn-danger">Delete</button>
+            <button class="btn btn-small replybtn">Reply</button>
+            </br>
+          </div>
+        {{/each}}
+
+        <div class="projectcomment" {{bind-attr id=id}}>
+          <input type="text" class="authorbox" placeholder="Email, or leave blank for anonymous"></input>
+          </br>
+          <textarea rows="4" class="commentarea"></textarea>
+          </br>
+          <button class="btn" onclick="addComment($(this))">Add comment</button>
+        </div>
+
       </div>
     </div>
   </script>
@@ -130,7 +157,7 @@
 
   <script type="text/x-handlebars" id="about">
     <div class='about'>
-      <p>This is a simple portfolio application written in <a href="http://emberjs.com">Ember.js</a>, utilizing <a href="http://www.handlebarsjs.com">Handlebars</a> and <a href="http://jquery.com/">jQuery</a>, taking inspiration from <a href="https://github.com/emberjs/quickstart-code-sample">the quickstart guide</a> as well as a <a href="https://github.com/tildeio/bloggr-client">blogging client</a> written in the framework. Additional features include a <a href="https://github.com/ChaseFlorell/jQuery.ProfanityFilter">profanity filter</a> by Chase Florell as well as an <a href="http://davidwalsh.name/convert-xml-json">XML to JSON converter</a> to handle the SVN data in a more javascript-friendly format.
+      <p>This is a simple portfolio application written in <a href="http://emberjs.com">Ember.js</a>, utilizing <a href="http://www.handlebarsjs.com">Handlebars</a> and <a href="http://jquery.com/">jQuery</a>, taking inspiration from <a href="https://github.com/emberjs/quickstart-code-sample">the quickstart guide</a> as well as a <a href="https://github.com/tildeio/bloggr-client">blogging client</a> written in the framework. Additional features include a profanity filter as well as an <a href="http://davidwalsh.name/convert-xml-json">XML to JSON converter</a> to handle the SVN data in a more javascript-friendly format.
       </p>
       <p>I'm a Junior at the University of Illinois going for a degree in CS in Engineering. I like to design things. I also love cats and music and Adventure Time, and ideally my life will revolve around all of those in the future.
       </p>
@@ -145,6 +172,9 @@
   <script src="http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+  <script src="js/jquery-dateFormat.min.js"></script>
+  <script src="js/hex_md5.js"></script>
+  <script src="js/swears.js"></script>
   <script src="js/aux.js"></script>
   <script src="js/import.js"></script>
   <script src="js/app.js"></script>
