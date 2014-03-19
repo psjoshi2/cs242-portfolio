@@ -1,19 +1,17 @@
-function importSVNData() {
+function setupDB() {
   // Load svn list
   // TODO: Make this happen when app loads
   var BASE_SVN_URL = "https://subversion.ews.illinois.edu/svn/sp14-cs242/bsdorn2/";
   var SVN_USER_ROOT = "/bsdorn2/";
-  listj = get_json("data/svn_list.xml");
-  logj = get_json("data/svn_log.xml");
+  listj = getJSON("data/svn_list.xml");
+  logj = getJSON("data/svn_log.xml");
 
   // Struct factories
   var Project = makeStruct("id,title,date,version,author,files,comments");
-  var Comment = makeStruct("id,content,author,date");
-  var File = makeStruct("name,size,type,path,url,versions,version,author,commitmsg,date,linkname,id,comments,penid");
+  var File = makeStruct("name,size,type,path,url,versions,version,author,commitmsg,date,linkname,id,comments,foop,project_idx");
   var Version = makeStruct("date,number,author,msg");
 
   // Create array of 'Project' objects
-  var project_comments = [];
   var projects = [];
   var project_names = [];
   var project_id = 0;
@@ -25,6 +23,7 @@ function importSVNData() {
     var version = listj.lists.list.entry[i]['commit']['@attributes']['revision'];
     var author = listj.lists.list.entry[i]['commit']['author']['#text'];
     var files = [];
+    var comments = [];
 
     // Get name up until the first subdirectory
     if(name.indexOf("/") >= 0) {
@@ -32,7 +31,7 @@ function importSVNData() {
     }
     // Add new project if it doesn't already exist
     if(jQuery.inArray(name, project_names) == -1) {
-      var new_project = new Project(String(project_id), name, date, version, author, files, project_comments);
+      var new_project = new Project(String(project_id), name, date, version, author, files, comments);
       projects.push(new_project);
       project_names.push(name);
       project_id += 1;
@@ -65,15 +64,16 @@ function importSVNData() {
       actual_name = actual_name.slice(0,actual_name.indexOf("/"));
       actual_name = reverse(actual_name);
       var versions = [];
-      var new_file = new File(actual_name,size, "", name, BASE_SVN_URL+name, versions, version, author, "", date, "#"+i, i, file_comments,"penis"+i);
+      var current_idx = projects[proj_idx].files.length;
+      var new_file = new File(actual_name,size, "", name, BASE_SVN_URL+name, versions, version, author, "", date, "#"+current_idx, current_idx, file_comments,"foop"+i,project_id);
       projects[proj_idx].files.push(new_file);
     }
   }
 
   // Sort files by name
-  for( i = 0; i < projects.length ; i++ ) {
-    projects[i].files.sort(compareNames);
-  }
+  // for( i = 0; i < projects.length ; i++ ) {
+  //   projects[i].files.sort(compareNames);
+  // }
 
   // Get info for files from svn_log
   for( i = 0; i < logj.log.logentry.length ; i++ ) {
@@ -112,6 +112,6 @@ function importSVNData() {
       }
     }
   }
-
   return projects; 
 }
+
