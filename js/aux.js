@@ -99,6 +99,11 @@ function validateEmail(email) {
     return pattern.test(email);
 }
 
+function gravatarSimple(email) {
+  var baseUrl = 'http://www.gravatar.com/avatar/';
+  return baseUrl+hex_md5(email)+'.jpg';
+}
+
 // Profanity filter, taken from http://stackoverflow.com/questions/4541070/how-can-i-do-a-jquery-swear-word-bad-word-filter
 function filterWords(txt) {
   var filter = ['ass', 'words'];
@@ -110,16 +115,17 @@ function filterWords(txt) {
   return txt;
 }
 
-// Function to add comments
+// Function to add comments, button's div is passed in as argument
 function addComment(div) {
   // Comment struct
-  var Comment = makeStruct("id,content,author,date,subs");
+  var Comment = makeStruct("id,content,author,date,subs,img");
   var subcomments = [];
 
+  // Filter text
   var unclean = div.parent().find("textarea").val();
   content = filterWords(unclean);
 
-  // Author is email, or default is Anonymous
+  // Author is email, or nil is Anonymous
   var author = div.parent().find("input").val();
   if(!author) author = "Anonymous";  
 
@@ -128,18 +134,21 @@ function addComment(div) {
   var proj_id = div.parent().attr('id');
   var file_id = div.attr('id');
 
-  // Gravatar - if we have time
-  // var gravatar = $.gravatar(validateEmail(author));
-  // console.log("GRAV: "+gravatar);
+  // Gravatar? Sure
+  var gravatar = gravatarSimple(author);
 
   if(file_id) { // File comment
     var comment_id = projects[proj_id].files[file_id].comments.length;
-    var new_comment = new Comment(comment_id,content,author,date,subcomments);
+    var new_comment = new Comment(comment_id,content,author,date,subcomments,gravatar);
     projects[proj_id].files[file_id].comments.pushObject(new_comment);
   }
   else { // Project comment
     var comment_id = projects[proj_id].comments.length;
-    var new_comment = new Comment(comment_id,content,author,date,subcomments);
+    var new_comment = new Comment(comment_id,content,author,date,subcomments,gravatar);
     projects[proj_id].comments.pushObject(new_comment);
   }
+
+  // Clear fields, we don't need them anymore
+  div.parent().find("textarea").val("");
+  div.parent().find("input").val("");
 }
