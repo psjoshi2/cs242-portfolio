@@ -94,7 +94,7 @@ function iframeIt(div) {
 }
 
 // Taken from http://stackoverflow.com/questions/8398403/jquery-javascript-to-check-if-correct-e-mail-was-entered
-function validateEmail(email) { 
+function checkEmail(email) { 
     var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
     return pattern.test(email);
 }
@@ -106,7 +106,6 @@ function gravatarSimple(email) {
 
 // Profanity filter, taken from http://stackoverflow.com/questions/4541070/how-can-i-do-a-jquery-swear-word-bad-word-filter
 function filterWords(txt) {
-  var filter = ['ass', 'words'];
   for(var i=0; i<swears.length; i++){
     var pattern = new RegExp('\\b' + swears[i] + '\\b', 'g');
     var replacement = '*'.repeat(swears[i].length);
