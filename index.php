@@ -5,7 +5,7 @@ set_time_limit(0);
 while (true)
 {
   $now=time();
-  include("svn.php");
+  include("php/svn.php");
   sleep($interval*60-(time()-$now));
 }
 ?>
