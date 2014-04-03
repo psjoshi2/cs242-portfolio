@@ -79,6 +79,9 @@ a#freakinhuge:hover {
 .iframe a {
     cursor: pointer;
 }
+li a {
+    cursor: pointer;
+}
 li a.ember-view.active {
     color: #fff !important;
 }
