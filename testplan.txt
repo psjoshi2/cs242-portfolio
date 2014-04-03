@@ -1,0 +1,26 @@
+Manual Test Plan:
+
+====== JQUERY ======
+
+0. Run Python SimpleHTTPServer in directory
+1. Open index.html in browser
+2. Go to any file
+3. Click on a file
+4. An accordion should open via jQuery
+
+====== ASYNC COMMENTING ======
+
+0. Run Python SimpleHTTPServer in directory
+1. Open index.html in browser
+2. Navigate to a project and add a comment
+3. Click on 'save' in nav
+4. Comment should show up after refresh
+
+====== CONTENT ASYNC ====== 
+
+0. Run Python SimpleHTTPServer in directory
+1. Open index.html in browser
+2. Navigate to a project and add a comment
+3. Click on 'Save' in nav
+4. Click 'Fetch SVN Data' in nav
+5. Data should refresh and comments should show
