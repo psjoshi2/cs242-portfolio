@@ -26,9 +26,8 @@
           <li><a href="qunit.html">Testing</a></li>
           <li>{{#link-to 'about'}}About{{/link-to}}</li>
           <li><a>||</a></li>
-          <li><a href="?run=true">Fetch SVN</a></li>
-          <li><a>Refresh DB</a></li>
-          <li><a>Save Comments</a></li>
+          <li><a onclick="refresh()">Fetch SVN Data</a></li>
+          <li><a onclick="save()">Save</a></li>
         </ul>
       </div>
     </div>
@@ -131,7 +130,6 @@
     </br>
     <div class="comments">
       <tr><th><h4 class="filetable-title">{{comments.length}} Comments:</h4></th></tr>
-      <div class="well tablewell commentwell">
         {{#each comment_t in comments}}
           <div class="well">
             <img {{bind-attr src=comment_t.img}} class="img-polaroid"></img>
@@ -151,7 +149,6 @@
           <button class="btn" onclick="addComment($(this))">Add comment</button>
         </div>
 
-      </div>
     </div>
   </script>
 
