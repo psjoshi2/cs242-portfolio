@@ -151,3 +151,12 @@ function addComment(div) {
   div.parent().find("textarea").val("");
   div.parent().find("input").val("");
 }
+
+function refresh() {
+  console.log("Restoring comments...");
+  updateDB(projects);
+}
+
+function save() {
+  console.log("Saving to disk...");
+}

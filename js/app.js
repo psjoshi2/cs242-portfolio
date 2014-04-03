@@ -2,7 +2,8 @@
 App = Ember.Application.create({});
 
 // Get SVN data
-projects = Ember.A($.makeArray(setupDB()));
+var peep = setupDB();
+projects = Ember.A($.makeArray(peep));
 
 // Routing
 App.Router.map(function() {
@@ -39,38 +40,47 @@ Ember.Handlebars.helper('format-date-specific', function(date) {
 });
 
 // Coincides with PHP script that's run every hour
-var woot = setInterval(updateDB(projects), 600);
+setInterval(function(projects) {
+  updateDB(projects);
+}
+, 360000);
 
 function updateDB(p) {
-  console.log("UPDATING DB...");
+  console.log(".......................................UPDATING DB.....................................");
+  var p = projects;
+
   // Store comments
-  var projectComments = [];
-  var fileComments = [];
+  var projectComments = Ember.A($.makeArray());
+  var fileComments = Ember.A($.makeArray());
   var commentBackup = makeStruct("comment,proj_idx,file_idx");
   
+  // Clear residual data - these aren't running..
+  projectComments.clear();
+  fileComments.clear();
+
   // Project comments
   for(var i = 0; i < p.length; i++) {
     for(var l = 0; l < p[i].comments.length; l++) {
       var new_backup = new commentBackup(p[i].comments[l],i,-1);
-      projectComments.push(new_backup);
+      projectComments.pushObject(new_backup);
+      // console.log("Backed up "+new_backup);
     }
 
     // File comments
     for(var k = 0; k < p[i].files.length; k++) {
       for(l = 0; l < p[i].files[k].comments.length; l++) {
         var new_backup = new commentBackup(p[i].files[k].comments[l],i,k);
-        projectComments.push(new_backup);
+        fileComments.pushObject(new_backup);
+        // console.log("Backed up "+new_backup);
       }
     }
   }
 
-
-
   // Refresh and restore
   p = Ember.A($.makeArray(setupDB()));
   applyComments(p,projectComments,fileComments);
-  console.log("UPDATE COMPLETE! "+commentBackup.length+" COMMENTS RESTORED.");
-  console.log(p);
+  console.log(".......................UPDATE COMPLETE! "+projectComments.length+" PROJECT COMMENTS AND "+fileComments.length+" FILE COMMENTS RESTORED.");
+  projects = p;
 }
 
 function applyComments(p,j,f) {
@@ -79,30 +89,16 @@ function applyComments(p,j,f) {
 
   // Project comments
   for(var i = 0; i < j.length; i++) {
-    p_idx = j[i].project_idx;
-    projects[p_idx].comments.pushObject(j[i].comment);
+    p_idx = j[i].proj_idx;
+    p[p_idx].comments.pushObject(j[i].comment);
   }
 
   // File comments
   for(i = 0; i < f.length; i++) {
-    p_idx = f[i].project_idx;
+    p_idx = f[i].proj_idx;
     f_idx = f[i].file_idx;
-    projects[p_idx].files[file_idx].comments.pushObject(f[i].comment);
+    p[p_idx].files[f_idx].comments.pushObject(f[i].comment);
   }
+  console.log("Applied.");
 }
 
-// App.Persist = Ember.ArrayController.create({
-//   content: projects,
-//   save: function () {
-//     // assuming you are using jQuery, but could be other AJAX/DOM framework
-//     $.post({
-//       url: "/",
-//       data: JSON.stringify( this.toArray() ),
-//       success: function ( data ) {
-//         // your data should already be rendered with latest changes
-//         // however, you might want to change status from something to "saved" etc.
-//         console.log("Saved!");
-//       }
-//     });
-//   }
-// });
